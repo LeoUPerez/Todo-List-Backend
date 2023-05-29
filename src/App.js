@@ -16,5 +16,6 @@ app.get("/", (req, res) => {
 });
 
 app.use("/login", require("./Routes/RoutesLogin"));
+app.use("/register", require("./Routes/RoutesRegister"));
 
 module.exports = app;
